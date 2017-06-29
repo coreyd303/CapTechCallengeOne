@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C56FACB1EFC5EB300EE0FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C56FACA1EFC5EB300EE0FB5 /* AppDelegate.swift */; };
+		4C56FACD1EFC5EB300EE0FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C56FACC1EFC5EB300EE0FB5 /* ViewController.swift */; };
+		4C56FAD01EFC5EB300EE0FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C56FACE1EFC5EB300EE0FB5 /* Main.storyboard */; };
+		4C56FAD21EFC5EB300EE0FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C56FAD11EFC5EB300EE0FB5 /* Assets.xcassets */; };
+		4C56FAD51EFC5EB300EE0FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C56FAD31EFC5EB300EE0FB5 /* LaunchScreen.storyboard */; };
+		4C8BDE4D1F042FB8004EE2DA /* CapTech_Assigment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BDE4C1F042FB8004EE2DA /* CapTech_Assigment_1UITests.swift */; };
+		4C8C42721EFD6FE70011B930 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C42711EFD6FE70011B930 /* TableViewController.swift */; };
+		4C8C436C1EFDA4000011B930 /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C436B1EFDA4000011B930 /* AppGlobals.swift */; };
+		4C8C43871F01A6270011B930 /* TableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C43861F01A6270011B930 /* TableViewControllerTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C56FADC1EFC5EB300EE0FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C56FABF1EFC5EB300EE0FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C56FAC61EFC5EB300EE0FB5;
+			remoteInfo = "CapTech Assigment 1";
+		};
+		4C8BDE4F1F042FB8004EE2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C56FABF1EFC5EB300EE0FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C56FAC61EFC5EB300EE0FB5;
+			remoteInfo = "CapTech Assigment 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C56FAC71EFC5EB300EE0FB5 /* CapTech Assigment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapTech Assigment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C56FACA1EFC5EB300EE0FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C56FACC1EFC5EB300EE0FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C56FACF1EFC5EB300EE0FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C56FAD11EFC5EB300EE0FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C56FAD41EFC5EB300EE0FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C56FAD61EFC5EB300EE0FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C56FADB1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapTech Assigment 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C56FAE11EFC5EB300EE0FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8BDE4A1F042FB8004EE2DA /* CapTech Assigment 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapTech Assigment 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8BDE4C1F042FB8004EE2DA /* CapTech_Assigment_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapTech_Assigment_1UITests.swift; sourceTree = "<group>"; };
+		4C8BDE4E1F042FB8004EE2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8C42711EFD6FE70011B930 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4C8C436B1EFDA4000011B930 /* AppGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
+		4C8C43861F01A6270011B930 /* TableViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C56FAC41EFC5EB300EE0FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56FAD81EFC5EB300EE0FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8BDE471F042FB8004EE2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C56FABE1EFC5EB300EE0FB5 = {
+			isa = PBXGroup;
+			children = (
+				4C56FAC91EFC5EB300EE0FB5 /* CapTech Assigment 1 */,
+				4C56FADE1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests */,
+				4C8BDE4B1F042FB8004EE2DA /* CapTech Assigment 1UITests */,
+				4C56FAC81EFC5EB300EE0FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C56FAC81EFC5EB300EE0FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C56FAC71EFC5EB300EE0FB5 /* CapTech Assigment 1.app */,
+				4C56FADB1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests.xctest */,
+				4C8BDE4A1F042FB8004EE2DA /* CapTech Assigment 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C56FAC91EFC5EB300EE0FB5 /* CapTech Assigment 1 */ = {
+			isa = PBXGroup;
+			children = (
+				4C56FACA1EFC5EB300EE0FB5 /* AppDelegate.swift */,
+				4C8C436B1EFDA4000011B930 /* AppGlobals.swift */,
+				4C56FACC1EFC5EB300EE0FB5 /* ViewController.swift */,
+				4C56FACE1EFC5EB300EE0FB5 /* Main.storyboard */,
+				4C56FAD11EFC5EB300EE0FB5 /* Assets.xcassets */,
+				4C56FAD31EFC5EB300EE0FB5 /* LaunchScreen.storyboard */,
+				4C56FAD61EFC5EB300EE0FB5 /* Info.plist */,
+				4C8C42711EFD6FE70011B930 /* TableViewController.swift */,
+			);
+			path = "CapTech Assigment 1";
+			sourceTree = "<group>";
+		};
+		4C56FADE1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C43851F01A5E00011B930 /* Supporting Files */,
+				4C8C43841F01A5D50011B930 /* Data */,
+				4C8C43821F01A5B70011B930 /* Cases */,
+			);
+			path = "CapTech Assigment 1Tests";
+			sourceTree = "<group>";
+		};
+		4C8BDE4B1F042FB8004EE2DA /* CapTech Assigment 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BDE4C1F042FB8004EE2DA /* CapTech_Assigment_1UITests.swift */,
+				4C8BDE4E1F042FB8004EE2DA /* Info.plist */,
+			);
+			path = "CapTech Assigment 1UITests";
+			sourceTree = "<group>";
+		};
+		4C8C43821F01A5B70011B930 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C43861F01A6270011B930 /* TableViewControllerTest.swift */,
+			);
+			name = Cases;
+			sourceTree = "<group>";
+		};
+		4C8C43841F01A5D50011B930 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4C8C43851F01A5E00011B930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C56FAE11EFC5EB300EE0FB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C56FAC61EFC5EB300EE0FB5 /* CapTech Assigment 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C56FAE41EFC5EB300EE0FB5 /* Build configuration list for PBXNativeTarget "CapTech Assigment 1" */;
+			buildPhases = (
+				4C56FAC31EFC5EB300EE0FB5 /* Sources */,
+				4C56FAC41EFC5EB300EE0FB5 /* Frameworks */,
+				4C56FAC51EFC5EB300EE0FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CapTech Assigment 1";
+			productName = "CapTech Assigment 1";
+			productReference = 4C56FAC71EFC5EB300EE0FB5 /* CapTech Assigment 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C56FADA1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C56FAE71EFC5EB300EE0FB5 /* Build configuration list for PBXNativeTarget "CapTech Assigment 1Tests" */;
+			buildPhases = (
+				4C56FAD71EFC5EB300EE0FB5 /* Sources */,
+				4C56FAD81EFC5EB300EE0FB5 /* Frameworks */,
+				4C56FAD91EFC5EB300EE0FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C56FADD1EFC5EB300EE0FB5 /* PBXTargetDependency */,
+			);
+			name = "CapTech Assigment 1Tests";
+			productName = "CapTech Assigment 1Tests";
+			productReference = 4C56FADB1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C8BDE491F042FB8004EE2DA /* CapTech Assigment 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8BDE531F042FB8004EE2DA /* Build configuration list for PBXNativeTarget "CapTech Assigment 1UITests" */;
+			buildPhases = (
+				4C8BDE461F042FB8004EE2DA /* Sources */,
+				4C8BDE471F042FB8004EE2DA /* Frameworks */,
+				4C8BDE481F042FB8004EE2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8BDE501F042FB8004EE2DA /* PBXTargetDependency */,
+			);
+			name = "CapTech Assigment 1UITests";
+			productName = "CapTech Assigment 1UITests";
+			productReference = 4C8BDE4A1F042FB8004EE2DA /* CapTech Assigment 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C56FABF1EFC5EB300EE0FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Corey Davis";
+				TargetAttributes = {
+					4C56FAC61EFC5EB300EE0FB5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3Q4M6DQ9WM;
+						ProvisioningStyle = Automatic;
+					};
+					4C56FADA1EFC5EB300EE0FB5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C56FAC61EFC5EB300EE0FB5;
+					};
+					4C8BDE491F042FB8004EE2DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C56FAC61EFC5EB300EE0FB5;
+					};
+				};
+			};
+			buildConfigurationList = 4C56FAC21EFC5EB300EE0FB5 /* Build configuration list for PBXProject "CapTech Assigment 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C56FABE1EFC5EB300EE0FB5;
+			productRefGroup = 4C56FAC81EFC5EB300EE0FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C56FAC61EFC5EB300EE0FB5 /* CapTech Assigment 1 */,
+				4C56FADA1EFC5EB300EE0FB5 /* CapTech Assigment 1Tests */,
+				4C8BDE491F042FB8004EE2DA /* CapTech Assigment 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C56FAC51EFC5EB300EE0FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C56FAD51EFC5EB300EE0FB5 /* LaunchScreen.storyboard in Resources */,
+				4C56FAD21EFC5EB300EE0FB5 /* Assets.xcassets in Resources */,
+				4C56FAD01EFC5EB300EE0FB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56FAD91EFC5EB300EE0FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8BDE481F042FB8004EE2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C56FAC31EFC5EB300EE0FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8C436C1EFDA4000011B930 /* AppGlobals.swift in Sources */,
+				4C56FACD1EFC5EB300EE0FB5 /* ViewController.swift in Sources */,
+				4C8C42721EFD6FE70011B930 /* TableViewController.swift in Sources */,
+				4C56FACB1EFC5EB300EE0FB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56FAD71EFC5EB300EE0FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8C43871F01A6270011B930 /* TableViewControllerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8BDE461F042FB8004EE2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8BDE4D1F042FB8004EE2DA /* CapTech_Assigment_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C56FADD1EFC5EB300EE0FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C56FAC61EFC5EB300EE0FB5 /* CapTech Assigment 1 */;
+			targetProxy = 4C56FADC1EFC5EB300EE0FB5 /* PBXContainerItemProxy */;
+		};
+		4C8BDE501F042FB8004EE2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C56FAC61EFC5EB300EE0FB5 /* CapTech Assigment 1 */;
+			targetProxy = 4C8BDE4F1F042FB8004EE2DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C56FACE1EFC5EB300EE0FB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C56FACF1EFC5EB300EE0FB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C56FAD31EFC5EB300EE0FB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C56FAD41EFC5EB300EE0FB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C56FAE21EFC5EB300EE0FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C56FAE31EFC5EB300EE0FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C56FAE51EFC5EB300EE0FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Q4M6DQ9WM;
+				INFOPLIST_FILE = "CapTech Assigment 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C56FAE61EFC5EB300EE0FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Q4M6DQ9WM;
+				INFOPLIST_FILE = "CapTech Assigment 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C56FAE81EFC5EB300EE0FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "CapTech Assigment 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapTech Assigment 1.app/CapTech Assigment 1";
+			};
+			name = Debug;
+		};
+		4C56FAE91EFC5EB300EE0FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "CapTech Assigment 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapTech Assigment 1.app/CapTech Assigment 1";
+			};
+			name = Release;
+		};
+		4C8BDE511F042FB8004EE2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CapTech Assigment 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CapTech Assigment 1";
+			};
+			name = Debug;
+		};
+		4C8BDE521F042FB8004EE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CapTech Assigment 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "captech.CapTech-Assigment-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CapTech Assigment 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C56FAC21EFC5EB300EE0FB5 /* Build configuration list for PBXProject "CapTech Assigment 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C56FAE21EFC5EB300EE0FB5 /* Debug */,
+				4C56FAE31EFC5EB300EE0FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C56FAE41EFC5EB300EE0FB5 /* Build configuration list for PBXNativeTarget "CapTech Assigment 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C56FAE51EFC5EB300EE0FB5 /* Debug */,
+				4C56FAE61EFC5EB300EE0FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C56FAE71EFC5EB300EE0FB5 /* Build configuration list for PBXNativeTarget "CapTech Assigment 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C56FAE81EFC5EB300EE0FB5 /* Debug */,
+				4C56FAE91EFC5EB300EE0FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8BDE531F042FB8004EE2DA /* Build configuration list for PBXNativeTarget "CapTech Assigment 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8BDE511F042FB8004EE2DA /* Debug */,
+				4C8BDE521F042FB8004EE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C56FABF1EFC5EB300EE0FB5 /* Project object */;
+}
