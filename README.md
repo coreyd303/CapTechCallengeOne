@@ -42,14 +42,22 @@ _When completed the student should have an understanding of the following concep
   * [Mobile User Experience](https://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html%23//apple_ref/doc/uid/TP40006556)
   * [Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/)
 
-* Required Tools: o Xcode 6+
+* Required Tools:
+  * Xcode 6+
   * Mac with 10.10 • Suggested APIs
   * NSUserDefaults
   * UITableView and UITableViewController
     * UINavigationController
 
 #### 3. Getting started
-  1. Open xcode and start a new project as a single page application
-  2. Initialize git from the project directory with _git init_
-  3. Create a gitHub repo for this project
-  4. [Add your project to your new repo](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+1. Open xcode and start a new project as a single page application
+2. Initialize git from the project directory with _git init_
+3. Create a gitHub repo for this project
+4. [Add your project to your new repo](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+
+#### 4. Extension Challenges
+1. Add a "Remove" button to the navigation that removes the last record from the table
+2. Write a set of UI Tests to test the following:
+  * User can view all screens of the app
+  * User can see data in the table
+  * User can remove record from the table
