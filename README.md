@@ -1,4 +1,4 @@
-# CapTechCallengeOne
+# Cap Tech Callenge One (Swift / iOS)
 ## CapTech code challenge number 1
 
 #### 1. Assignment
