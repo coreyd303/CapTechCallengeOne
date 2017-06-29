@@ -35,7 +35,9 @@ _When completed the student should have an understanding of the following concep
 * Basic date formatting
 
 #### 3. Recommended Approach
-* See Jack Cox for a developer account on the Apple developer portal. This is required to enable loading the application on a hardware device.
+* If you want to load your app onto your phone you will need a developer account on the Apple developer portal. This is required to enable loading the application on a hardware device.
+[Developer Account](https://developer.apple.com/documentation)
+
 * Web resources:
   * [Getting Stared With iOS](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Getting%20Started)
   * [iOS RoadMap](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html#//apple_ref/doc/uid/TP40011343)
